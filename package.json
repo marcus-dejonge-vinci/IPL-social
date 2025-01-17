@@ -1,0 +1,12 @@
+{
+  "name": "ipl-social",
+  "version": "1.0.0",
+  "description": "nom : de Jonge\r prénom : Marcus\r email : marcus.dejonge@student.vinci.be",
+  "main": "passwordChecker.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
