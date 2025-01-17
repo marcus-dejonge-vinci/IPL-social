@@ -13,4 +13,9 @@ describe("Checking if a password is valid", function () {
         expect(result).toBe(false);
     });
 
+    it("Number of characters : when number of characters is 8", function(){
+        const result = main.checkMin8chars("abcdefgh");
+        expect(result).toBe(true);
+    });
+
 }); 
