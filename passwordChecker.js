@@ -1,7 +1,9 @@
 export class main {
 
     checkMin8chars(password){
-        return false;
+        if(password.length === 0){
+            return false;
+        }
     }
 
 }
